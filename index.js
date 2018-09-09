@@ -1,7 +1,8 @@
-const request = require('superagent')
+const superagent = require('superagent')
 
-request.get('http://taobao.com')
-    .end((err, res) => {
-        if (err) return console.error(err)
-        console.log(res)
-    })
+async function demo() {
+    const response = await superagent.get('http://github.com')
+    console.log(response.text)
+}
+
+demo()

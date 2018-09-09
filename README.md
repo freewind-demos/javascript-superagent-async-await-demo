@@ -1,9 +1,11 @@
-JavaScript SuperAgent Demo
-==========================
+JavaScript SuperAgent Async/Await Demo
+======================================
+
+在superagent中如何使用ES6的`async/await`关键字
 
 ```
 npm install
 node index.js
 ```
 
-You will get a big JSON about the response.
+将输出请求的URL的内容。
