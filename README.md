@@ -5,7 +5,7 @@ JavaScript SuperAgent Async/Await Demo
 
 ```
 npm install
-node index.js
+npm run demo
 ```
 
 将输出请求的URL的内容。
